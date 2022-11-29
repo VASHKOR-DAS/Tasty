@@ -8,10 +8,9 @@
 .all-content {
   color: white;
   /* border-radius: 0px; */
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 
-  
   background-color: rgba(229, 229, 229, 0.230);
 
   box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;

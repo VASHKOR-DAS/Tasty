@@ -1,34 +1,37 @@
-(function($) { "use strict";
-
-  $(function() {
-    var header = $(".start-style");
-    $(window).scroll(function() {    
-      var scroll = $(window).scrollTop();
-    
-      if (scroll >= 10) {
-        header.removeClass('start-style').addClass("scroll-on");
-      } else {
-        header.removeClass("scroll-on").addClass('start-style');
+$('.responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
       }
-    });
-  });   
-    
-  //Animation
-  
-  $(document).ready(function() {
-    $('body.hero-anime').removeClass('hero-anime');
-  });
-
-  //Menu On Hover
-    
-  $('nav').on('mouseenter mouseleave','.nav-item',function(e){
-      if ($(window).width() > 750) {
-        var _d=$(e.target).closest('.nav-item');_d.addClass('show');
-        setTimeout(function(){
-        _d[_d.is(':hover')?'addClass':'removeClass']('show');
-        },1);
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
-  }); 
-  
-  //Switch light/dark
-  
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
