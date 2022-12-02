@@ -1,0 +1,52 @@
+:root {
+    --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
+    --step--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1.00rem);
+    --step-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+    --step-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
+    --step-2: clamp(1.62rem, calc(1.50rem + 0.58vw), 1.95rem);
+    --step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
+    --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
+    --step-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
+}
+
+body {
+    font-size: var(--step-0);
+}
+
+h1,
+.fs-xxxl {
+    font-size: var(--step-5);
+}
+
+h2,
+.fs-xxl {
+    font-size: var(--step-4);
+}
+
+h3,
+.fs-xl {
+    font-size: var(--step-3);
+}
+
+h4,
+.fs-lg {
+    font-size: var(--step-2);
+}
+
+h5,
+.fs-md {
+    font-size: var(--step-1);
+}
+
+.fs-base {
+    font-size: var(--step-0);
+}
+
+small,
+.fs-sm {
+    font-size: var(--step--1);
+}
+
+.fs-xs {
+    font-size: var(--step--2);
+}
