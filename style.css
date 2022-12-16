@@ -96,11 +96,11 @@
   /* max-width: fit-content; */
   /* backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px); */
-  
+
 }
 
 .c-slider:nth-child(even) {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .bi-cart-plus {
@@ -113,7 +113,7 @@
 
 .display {
   height: 31rem;
-  width: 17rem;
+  width: 15rem;
   background-color: rgba(255, 241, 224, 0.550);
   border-radius: 30px;
   box-sizing: border-box;
@@ -139,7 +139,7 @@
 }
 
 .d-bg {
-  
+
   background-color: rgba(255, 241, 224, 0.2);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -149,8 +149,57 @@
   margin-top: 2rem;
 }
 
-.img-w {
+.display-1-last {
   position: absolute;
   right: -40px;
-  bottom: -25px;
+  bottom: -15px;
+}
+
+.display-2-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180%;
+  left: -110px;
+  bottom: 140px;
+  position: absolute;
+}
+
+.display-2-text {
+  bottom: 80px;
+}
+
+.display-2-c-view-menu {
+  position: absolute;
+  right: -235px;
+  bottom: 10px;
+  color: #ffffff;
+  border: 1px solid none;
+  background-color: #000000;
+  padding: 7px 25px 7px 25px;
+  border-radius: 8px 35px 5px 25px;
+}
+
+.app-link {
+  box-sizing: border-box;
+  background: #000;
+  height: 40px;
+  width: 120px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.playstore {
+  width: 35%;
+  margin-top: -1px;
+}
+
+.Available-on {
+  position: absolute;
+  font-size: 8px;
+  margin-top: -10px;
+}
+
+.goole-play {
+  margin-top: 13px;
 }
