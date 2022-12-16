@@ -1,8 +1,8 @@
 $('.responsive').slick({
   // dots: true,
 
-  // autoplay: true,
-  // autoplaySpeed: 1200,
+  autoplay: true,
+  autoplaySpeed: 1200,
   
   infinite: true,
   speed: 300,
