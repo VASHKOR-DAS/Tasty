@@ -110,3 +110,47 @@
   padding: 10px 20px 5px 20px;
   border-radius: 15px;
 }
+
+.display {
+  height: 31rem;
+  width: 17rem;
+  background-color: rgba(255, 241, 224, 0.550);
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.vector-d {
+  background-color: rgba(255, 241, 224, 0.3);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bi-d {
+  background-color: rgba(0, 0, 0, 0.250);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 6px 10px 6px 10px;
+  border-radius: 10px;
+}
+
+.display-w {
+  width: 40%;
+}
+
+.d-bg {
+  
+  background-color: rgba(255, 241, 224, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 10px;
+  border-radius: 15px;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.img-w {
+  position: absolute;
+  right: -40px;
+  bottom: -25px;
+}
