@@ -92,7 +92,7 @@
 }
 .slick-prev:before
 {
-    content: '\1F808';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -110,7 +110,7 @@
 }
 .slick-next:before
 {
-    content: '\1F80A';
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
