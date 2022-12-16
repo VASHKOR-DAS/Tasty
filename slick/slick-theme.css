@@ -110,7 +110,7 @@
 }
 .slick-next:before
 {
-    content: '🡢';
+    content: '\279C';
 }
 [dir='rtl'] .slick-next:before
 {
