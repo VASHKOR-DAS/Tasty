@@ -61,15 +61,15 @@
     }
 
     .media-first-section {
-        zoom: 0%;
+        zoom: 90%;
     }
 
     .media-second-section {
-        zoom: 0%;
+        zoom: 80%;
     }
 
-    .media-distplay-section {
-        zoom: 0%;
+    .media-display-section {
+        zoom: 78%;
     }
 
     .media-first-section-image {
