@@ -1,0 +1,101 @@
+/* Free code camp resource
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    
+    header {
+        zoom: 150%;
+    }
+    
+    body {
+        zoom: 60%;
+    }
+
+    .media-slider-section {
+        zoom: normal;
+    }
+
+    .media-first-section-image {
+        zoom: 0%;
+    }
+
+    .media-display-one-two {
+        zoom: 0%;
+    }
+
+
+}
+
+
+
+/* Media Query for low resolution Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        zoom: 150%;
+    }
+    
+    body {
+        zoom: 80%;
+    }
+}
+
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        zoom: 130%;
+    }
+
+    body {
+        zoom: 80%;
+    }
+
+    .media-first-section {
+        zoom: 0%;
+    }
+
+    .media-second-section {
+        zoom: 0%;
+    }
+
+    .media-distplay-section {
+        zoom: 0%;
+    }
+
+    .media-first-section-image {
+        zoom: 0%;
+    }
+
+    .media-second-section-image {
+        zoom: 130%;
+    }
+
+}
+
+
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        zoom: normal;
+    }
+}
+
+
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body {
+        zoom: normal;
+    }
+}
